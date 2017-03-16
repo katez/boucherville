@@ -1,4 +1,7 @@
 @import "mixins";
+//Fonts
+$font-sans:         "Open sans", Helvetica, sans-serif;
+$font-serif:        "Playfair display", serif;
 
 //Breakpoints
 $tablet:            740px;
@@ -9,3 +12,7 @@ $widescreen:        1180px;
 $grid-tablet:       720px;
 $grid-desktop:      960px;
 $grid-widescreen:   1140px;
+
+//Colors
+$gunmetalgrey:      #333333;
+$offwhite:          #FFFFF2;

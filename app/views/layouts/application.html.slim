@@ -3,9 +3,26 @@ html
   head
     title Boucherville
     = csrf_meta_tags
-
+    link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display" rel="stylesheet"
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
 
   body
-    = yield
+    .nav
+      .nav-usps 
+        .nav-usp Exclusive Sortiment
+        .nav-usp
+        .nav-usp 
+      .nav-header
+        .userMenu
+        .logo
+        .menu
+          .search
+      .hero
+        .hero-image
+        .hero-subtext
+        .hero-heading
+        .hero-cta
+      
+    .container  
+      = yield 
