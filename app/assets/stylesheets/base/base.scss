@@ -1,0 +1,14 @@
+@import "variables";
+
+html, body {
+  height: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+div, section, img, a, input, select, textarea, footer, table, thead, tbody, tr, td, th {
+  box-sizing: border-box;
+}
