@@ -1,0 +1,15 @@
+@import "base/variables";
+
+.menu {
+display: flex;
+justify-content: space-between;
+margin: 20px 0px 10px;
+}
+
+.menu-item {
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: .05em;
+  color: $gunmetalgrey;
+  text-transform: uppercase;
+}
