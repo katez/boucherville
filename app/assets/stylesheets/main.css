@@ -1,0 +1,54 @@
+@import "base/variables";
+
+.summary {
+  color: $gunmetalgrey;
+  font-family: Playfair display;
+  font-size: 2em;
+}
+.summary-title-1 {
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
+
+.summary-paragraph {
+  font-size: 0.75em;
+  <!-- font-weight should be added here -->
+}
+
+.contact-image {
+  position: relative;
+  width: 100%;
+}
+.contact-email .contact-phone {
+  position: absolute;
+  top: 100px;
+}
+
+.nav-usp {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.nav-usp:first-child {
+  text-align: left;
+}
+
+.nav-usp:last-child {
+  text-align: right;
+}
+
+.nav-usps {
+  background-color: $gunmetalgrey;
+  color: $offwhite;
+  padding: 5px 25px 8px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .05em;
+}
+
+.nav-header {
+  color: $babygrey;
+  padding: 5px 25px 8px;
+  border-bottom: 1px solid $babygrey;
+}
