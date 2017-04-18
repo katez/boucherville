@@ -12,16 +12,23 @@
 
 .summary-paragraph {
   font-size: 0.75em;
-  <!-- font-weight should be added here -->
+  /*font-weight should be added here*/
 }
 
 .contact-image {
   position: relative;
   width: 100%;
 }
-.contact-email .contact-phone {
-  position: absolute;
-  top: 100px;
+
+.contact-email {
+  /*position: absolute;
+  top: 100px;*/
+  text-transform: uppercase;
+}
+
+div.contact-email {
+  text-transform: uppercase;
+  color: orange;
 }
 
 .nav-usp {
