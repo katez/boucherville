@@ -12,6 +12,7 @@
  *
  *= require normalize-rails
  *= require skeleton
+ *= require main
  *= require_tree ./base
  *= require_tree ./layouts
  *= require_tree ./components
@@ -42,4 +43,24 @@
  .contact-email .contact-phone {
    position: absolute;
    top: 100px;
+ }
+ .contact {
+   text-align: center;
+   color: $offwhite;
+ }
+ img {
+   position: relative;
+   width: 100%;
+ }
+
+ .contact-email {
+   text-transform: uppercase;
+   color: orange;
+ }
+
+ footer {
+   text-decoration: none;
+ }
+ .footer-menu-weiss .footer-menu-rot .footer-menu-schaum .footer-menu-rebsorten .footer-menu-winzer {
+   font-size: 0.75em;
  }
