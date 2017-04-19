@@ -53,14 +53,11 @@
    width: 100%;
  }
 
- .contact-email {
-   text-transform: uppercase;
-   color: orange;
+ .footer-menu {
+   text-decoration: none;
+   list-style: none;
  }
 
- footer {
-   text-decoration: none;
- }
  .footer-menu-weiss .footer-menu-rot .footer-menu-schaum .footer-menu-rebsorten .footer-menu-winzer {
    font-size: 0.75em;
  }
