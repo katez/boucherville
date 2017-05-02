@@ -133,7 +133,21 @@
 .contact {
   text-align: center;
   color: #FFFFF2;
+  /*position: relative;*/
+  background-image: url("/assets/home/grapes.jpg");
+  background-size: 100vw;
+  height: 990px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.contact-details {
+}
+.contact-details-line {
+  border-bottom: 2px solid white;
+  width: 50px;
   position: relative;
+  left: 150px;
 }
 
 /*Footer*/
