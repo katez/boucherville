@@ -16,9 +16,9 @@
       <a href="https://www.google.com" class="nav-usp-3">Versandkostenfrei Ab 36 Flachen Oder CHF 400</a>
     </div>
     <div class="header-usps">
-      <a href="https://www.google.com">Kundenlogin</a>
-      <a href="https://www.google.com">Warenkorb</a>
-      <img src="/assets/home/logo.png" alt="logo">
+      <img class="header-usps-logo" src="/assets/home/logo.png" alt="logo">
+      <a class="header-usp" href="https://www.google.com">Kundenlogin</a>
+      <a class="header-usp" href="https://www.google.com">Warenkorb</a>
     </div>
     <div class="header-menu">
       <a href="https://www.google.com" class="header-menu-1">Weine</a>
@@ -34,6 +34,7 @@
   <section class="hero">
     <img src="/assets/home/426.jpg" alt="hero image">
     <p class="hero-offer">BIS ZU <span class="hero-offer-discount">30%</span> RABATT</p>
+    <!-- **Can make this an a anchor and give it a background image to make the image link to another page** -->
   </section>
   <section class="spring-usps">
     <p class="spring-usps-reduced">Die besten Rotweine bis zu 30% reduziert</p>
@@ -169,12 +170,13 @@
           <!-- add hr divider inside div to limit width, center div and give width-->
           <div class="contact-details-line">
           </div>
-          <div class="contact-phone">+49 160 4379245</div>
-          <div class="contact-email">info@boucher.ch</div>
+          <a href="tel:+49 160 4379245" class="contact-details-phone">+49 160 4379245</a>
+          <a class="contact-details-email" href="mailto:info@boucher.ch">info@boucher.ch</a>
         </div>
       </div>
 
         <footer>
+          <div class="footer">
           <div class="footer-logo">
             <p>Boucherville</p>
           </div>
@@ -295,24 +297,24 @@
             <div class="footer-sitemap">
               <div class="container">
                 <div class="row">
-                  <div class="one column">
-                    <a href="https://www.google.com">Aktuelles |</a>
+                  <div class="two columns">
+                    <a class="footer-sitemap-border"href="https://www.google.com">Aktuelles</a>
                   </div>
-                  <div class="one column">
-                    <a href="https://www.google.com">Über uns |</a>
+                  <div class="two columns">
+                    <a  class="footer-sitemap-border"href="https://www.google.com">Über uns</a>
                   </div>
-                  <div class="one column">
-                    <a href="https://www.google.com">Kontact |</a>
+                  <div class="two columns">
+                    <a  class="footer-sitemap-border"href="https://www.google.com">Kontact</a>
                   </div>
-                  <div class="one column">
+                  <div class="two columns">
                     <a href="https://www.google.com">AGB</a>
                   </div>
                   </div>
                   <div class="row">
-                    <div class="one column">
+                    <div class="three columns">
                       <a href="https://www.instagram.com">Instagram</a>
                     </div>
-                    <div class="one column">
+                    <div class="three columns">
                       <a href="https://www.facebook.com">facebook</a>
                     </div>
                   </div>
@@ -321,7 +323,7 @@
                   </div>
               </div>
             </div>
+          </div>
             </footer>
           </body>
-
           </html>
