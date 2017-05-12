@@ -21,12 +21,17 @@
    width: 100%;
  }
 
+ .offer-discount {
+   font-family: Playfair display;
+ }
+
 /*Header*/
 
 .nav-usp {
   display: inline-block;
   width: 33%;
   text-align: center;
+
 }
 
 .nav-usp:first-child {
@@ -42,8 +47,9 @@
   color: #FFFFF2;
   padding: 5px 25px 8px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 9px;
   letter-spacing: .05em;
+  text-decoration: none;
 }
 
 .nav-header {
@@ -55,6 +61,8 @@
 .header-usps-logo {
   width:250px;
   height: 56px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header-usp{
   font-size: 0.75em;
@@ -77,10 +85,10 @@
   font-size: 30px;
   display: block;
 }
-/*/assets/home/champagner-toasting-new-year-s-eve-drink.jpg
-/assets/home/redwineshallow.jpeg
-/assets/home/red-couple-night-romantic.jpg*/
 
+.suggestions-title {
+  text-align: center;
+}
 /*Summary/SEO Text*/
 
 .summary {
@@ -128,12 +136,33 @@
 }
 .invitation-first-cta {
   background-image: url("/assets/home/champagner-toasting-new-year-s-eve-drink.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  margin-bottom: 10px;
+}
+.invitation-text {
+  font-family: Playfair display;
+  color: white;
 }
 .invitation-second-cta {
   background-image: url("/assets/home/red-couple-night-romantic.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  margin-right: 5px;
 }
 .invitation-third-cta {
-  background-image: url("assets/home/new-year-s-eve-ceremony-champagne-sparkling-wine.jpg");
+  background-image: url("/assets/home/new-year-s-eve-ceremony-champagne-sparkling-wine.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  margin-left: 5px;
+}
+
+.news-title,
+.news-subtitle {
+  text-align: center;
 }
 
 /*Contact info*/
@@ -159,6 +188,7 @@
   display: flex;
   justify-content: center;
   font-family: playfair;
+  margin-bottom: 0;
 }
 
 .contact-details {
@@ -191,6 +221,7 @@
 .footer {
   background-color: grey;
   text-align: center;
+  margin-top: 0;
 }
 .footer-logo {
   font-size: 1.5em;
