@@ -126,7 +126,15 @@
   position: relative;
   display: inline-block;
 }
-
+.invitation-first-cta {
+  background-image: url("/assets/home/champagner-toasting-new-year-s-eve-drink.jpg");
+}
+.invitation-second-cta {
+  background-image: url("/assets/home/red-couple-night-romantic.jpg");
+}
+.invitation-third-cta {
+  background-image: url("assets/home/new-year-s-eve-ceremony-champagne-sparkling-wine.jpg");
+}
 
 /*Contact info*/
 
