@@ -85,6 +85,9 @@
   font-size: 30px;
   display: block;
 }
+.engage {
+  display: block;
+}
 
 .suggestions-title {
   text-align: center;
