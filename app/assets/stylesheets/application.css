@@ -90,7 +90,6 @@
   display: inline-block;
   width: 33%;
   text-align: center;
-
 }
 
 .nav-usp:first-child {
@@ -123,10 +122,17 @@
   margin-left: auto;
   margin-right: auto;
 }
-.header-usp{
+.header-usp {
   font-size: 0.75em;
   text-align: right;
   color: grey;
+}
+.header-menu {
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: grey;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -397,6 +403,10 @@ margin-left: 20px;
 }
 .footer-logo {
   font-size: 1.5em;
+}
+
+.email-box {
+
 }
 .footer-name {
   color: #F9E79F;
