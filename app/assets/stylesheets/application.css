@@ -404,7 +404,7 @@ margin-left: 20px;
   font-family: Playfair display;
   text-transform: uppercase;
   font-weight: 400;
-  letter-spacing: 3px;
+  letter-spacing: 6px;
 }
 .footer-menu {
   text-decoration: none;
@@ -414,7 +414,11 @@ margin-left: 20px;
 
 .footer-menu-weiss .footer-menu-rot .footer-menu-schaum .footer-menu-rebsorten .footer-menu-winzer {
   font-size: 0.5em;
+  text-align: left;
 }
+ .footer-wein-name {
+   text-align: left;
+ }
 .footer-sitemap-border {
   border-right: 1px solid blue;
   padding: auto 10px;
