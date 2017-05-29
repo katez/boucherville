@@ -176,6 +176,7 @@
 
 .suggestions-title {
   text-align: center;
+  font-size: 30px;
 }
 
 .suggestions {
@@ -185,6 +186,9 @@
 .suggestion-column {
   background-color: white;
   position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
 }
 
 .suggestion-bubble {
@@ -393,6 +397,14 @@ margin-left: 20px;
 }
 .footer-logo {
   font-size: 1.5em;
+}
+.footer-name {
+  color: #F9E79F;
+  font-size: 30px;
+  font-family: Playfair display;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 .footer-menu {
   text-decoration: none;
