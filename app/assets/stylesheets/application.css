@@ -86,18 +86,25 @@
 
 /*Header*/
 
+.nav {
+  width: 33%;
+  text-decoration: none;
+  color: #FFFFF2;
+}
+
 .nav-usp {
   display: inline-block;
   width: 33%;
   text-align: center;
 }
 
-.nav-usp:first-child {
-  text-align: left;
+.nav-usp-1 {
+  float: left;
+  text-decoration: none;
 }
 
-.nav-usp:last-child {
-  text-align: right;
+.nav-usp-3 {
+  float: right;
 }
 
 .nav-usps {
@@ -133,6 +140,16 @@
   text-decoration: none;
   color: grey;
   text-transform: uppercase;
+}
+
+.wein-search {
+  color: #D3D3D3;
+  font-size: 0.65em;
+  text-transform: capitalize;
+}
+
+.wein-search-box {
+  background-color: white;
 }
 
 .hero {
