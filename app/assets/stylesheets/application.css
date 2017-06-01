@@ -187,7 +187,7 @@
 }
 
 .spring-usps-link {
-  color: red;
+  color: #7F171F;
   text-align: center;
   display: block;
 }
@@ -204,7 +204,7 @@
 }
 
 .suggestions {
-  background-color: #FAEBD7;
+  background-color: #F4EFE9;
 }
 
 .suggestion-column {
@@ -427,7 +427,7 @@ margin-left: 20px;
 
 }
 .footer-name {
-  color: #F9E79F;
+  color: #C8B089;
   font-size: 30px;
   font-family: Playfair display;
   text-transform: uppercase;
