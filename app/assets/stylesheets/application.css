@@ -208,6 +208,22 @@
 .suggestions {
   background-color: #F4EFE9;
 }
+.suggestion-row {
+  display: flex;
+  position: relative;
+}
+
+.suggestion-price {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 16px;
+    margin: 0 auto;
+}
+
+.suggestion-price-strikeThru {
+  text-decoration:line-through;
+}
 
 .suggestion-column {
   background-color: white;
@@ -215,6 +231,7 @@
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
+  padding-bottom: 35px;
 }
 
 .suggestion-bubble {
@@ -380,8 +397,9 @@ margin-left: 20px;
   color: #FFFFF2;
   /*position: relative;*/
   background-image: url("/assets/home/grapes.jpg");
-  background-size: 100vw;
-  height: 990px;
+  background-size: cover;
+  height: 80vh;
+  max-height: 600px;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -446,6 +464,11 @@ margin-left: 20px;
   font-size: 0.5em;
   text-align: left;
 }
+.footer-text {
+  font-size: 0.5em;
+  text-align: left;
+}
+
  .footer-wein-name {
    text-align: left;
  }
