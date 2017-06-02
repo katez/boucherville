@@ -116,6 +116,8 @@
   font-size: 9px;
   letter-spacing: .05em;
   text-decoration: none;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .nav-header {
