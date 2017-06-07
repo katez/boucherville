@@ -148,11 +148,12 @@
 .wein-search {
   color: #D3D3D3;
   font-size: 0.65em;
-  text-transform: capitalize;
-}
-
-.wein-search-box {
   background-color: white;
+  border: solid 1px #CBCCCE;
+  border-radius: 20px;
+  padding: 6px 45px;
+  margin: 10px;
+  text-align: left;
 }
 
 .hero {
