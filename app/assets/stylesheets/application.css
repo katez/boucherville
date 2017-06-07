@@ -153,7 +153,10 @@
   border-radius: 20px;
   padding: 6px 45px;
   margin: 10px;
-  text-align: left;
+}
+
+.wein-words {
+text-align: left;
 }
 
 .hero {
