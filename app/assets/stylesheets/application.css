@@ -143,6 +143,7 @@
   text-decoration: none;
   color: grey;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .wein-search {
@@ -211,6 +212,8 @@ text-align: left;
 
 .suggestions {
   background-color: #F4EFE9;
+  padding-top: 30px;
+  padding-bottom:40px;
 }
 .suggestion-row {
   display: flex;
@@ -313,6 +316,10 @@ text-align: left;
   font-size: 15px;
   color: #ccc;
   margin-top: 0;
+}
+
+.invitations {
+  padding-bottom: 30px;
 }
 
 .invitation-first-cta {
