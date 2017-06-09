@@ -60,7 +60,7 @@
 .bubble-span {
   font-size: 25px;
   display: block;
-  color: red;
+  color: #7F171F;
   font-weight: bold;
 }
 
@@ -391,6 +391,10 @@ margin-left: 20px;
   text-align: center;
 }
 
+.footer-newsletter {
+  color: white;
+  font-family: Playfair display;
+}
 /*Contact info*/
 
 .contact-image {
