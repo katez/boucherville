@@ -395,6 +395,8 @@ margin-left: 20px;
   color: white;
   font-family: Playfair display;
 }
+
+
 /*Contact info*/
 
 .contact-image {
@@ -449,6 +451,21 @@ margin-left: 20px;
 }
 
 /*Footer*/
+.newsletter-cta {
+  text-transform: uppercase;
+}
+
+.email-box {
+color: #D3D3D3;
+font-size: 0.65em;
+background-color: white;
+border: solid 1px #CBCCCE;
+border-radius: 20px;
+padding: 6px 45px;
+margin: 10px;
+max-width: 180px;
+}
+
 .footer {
   background-color: grey;
   text-align: center;
@@ -458,9 +475,7 @@ margin-left: 20px;
   font-size: 1.5em;
 }
 
-.email-box {
 
-}
 .footer-name {
   color: #C8B089;
   font-size: 30px;
@@ -486,6 +501,7 @@ margin-left: 20px;
 
  .footer-wein-name {
    text-align: left;
+   font-family: Playfair;
  }
 .footer-sitemap-border {
   border-right: 1px solid blue;
