@@ -455,15 +455,25 @@ margin-left: 20px;
   text-transform: uppercase;
 }
 
-.email-box {
+.email-box, .email-add {
 color: #D3D3D3;
 font-size: 0.65em;
-background-color: white;
 border: solid 1px #CBCCCE;
 border-radius: 20px;
 padding: 6px 45px;
 margin: 10px;
-max-width: 180px;
+display: inline;
+}
+
+.email-box {
+  max-width: 180px;
+  background-color: white;
+}
+
+.email-add {
+  color: #D3D3D3;
+  border: solid 1px white;
+  max-width: 90px;
 }
 
 .footer {
