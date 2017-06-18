@@ -146,18 +146,21 @@
   margin-bottom: 10px;
 }
 
-.wein-search {
+input.wein-search {
   color: #D3D3D3;
   font-size: 0.65em;
-  background-color: white;
   border: solid 1px #CBCCCE;
-  border-radius: 20px;
-  padding: 6px 45px;
+  border-radius: 250px;
+  height: 25px;
+  padding: 1px 20px 1px 10px;
   margin: 10px;
+  background-image: url('/assets/home/Search.png');
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .wein-words {
-text-align: left;
+text-transform: capitalize;
 }
 
 .hero {
@@ -391,12 +394,6 @@ margin-left: 20px;
   text-align: center;
 }
 
-.footer-newsletter {
-  color: white;
-  font-family: Playfair display;
-}
-
-
 /*Contact info*/
 
 .contact-image {
@@ -474,17 +471,22 @@ display: inline;
   color: #D3D3D3;
   border: solid 1px white;
   max-width: 90px;
+  text-transform: uppercase;
+}
+
+.footer-newsletter {
+  color: white;
+  font-family: Playfair display;
 }
 
 .footer {
-  background-color: grey;
+  background-color: #323335;
   text-align: center;
   margin-top: 0;
 }
 .footer-logo {
   font-size: 1.5em;
 }
-
 
 .footer-name {
   color: #C8B089;
@@ -500,10 +502,13 @@ display: inline;
   font-size: 0.65em;
 }
 
-.footer-menu-weiss .footer-menu-rot .footer-menu-schaum .footer-menu-rebsorten .footer-menu-winzer {
-  font-size: 0.5em;
+.footer-menu-weiss, .footer-menu-rot, .footer-menu-schaum, .footer-menu-rebsorten, .footer-menu-winzer {
+  font-size: 1.5em;
   text-align: left;
+  color: white;
+  text-transform: uppercase;
 }
+
 .footer-text {
   font-size: 0.5em;
   text-align: left;
@@ -512,13 +517,19 @@ display: inline;
  .footer-wein-name {
    text-align: left;
    font-family: Playfair;
+   color: #98999C;
+   text-decoration: none;
  }
 .footer-sitemap-border {
   border-right: 1px solid blue;
   padding: auto 10px;
   width: 2px;
+  text-decoration: none;
+  color: #98999C;
 }
 
 .footer-copyright {
   font-size: 0.5em;
+  color: #98999C;
+  text-decoration: none;
 }
